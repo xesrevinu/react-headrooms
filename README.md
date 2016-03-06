@@ -3,7 +3,7 @@
 The excellent [headroom.js](https://github.com/WickyNilliams/headroom.js) as a React.js component.
 
 # Demo
-Live demo: [xiaokekeT.github.io/react-headrooms](xiaokekeT.github.io/react-headrooms)
+Live demo: [xiaokekeT.github.io/react-headrooms](http://xiaokeket.github.io/react-headrooms)
 
 # Installation
 
