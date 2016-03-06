@@ -1,0 +1,33 @@
+{
+  "name": "react-headrooms-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -p --config webpack.config.js",
+    "watch": "webpack -w --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://xiaokekeT@github.com/xiaokekeT/react-headrooms.git"
+  },
+  "author": "xiaokekeT",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xiaokekeT/react-headrooms/issues"
+  },
+  "homepage": "https://github.com/xiaokekeT/react-headrooms#readme",
+  "devDependencies": {
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "webpack": "^1.12.14"
+  },
+  "dependencies": {
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-headrooms": "0.0.2"
+  }
+}
