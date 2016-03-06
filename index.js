@@ -54,7 +54,7 @@ class Demo extends React.Component {
         </Headroom>
         <div style={{height: '1500px'}}>
           <div className="container">
-            <p className="text-center">Scrool <i className="glyphicon glyphicon-arrow-down"></i> </p>
+            <p className="text-center">Scroll <i className="glyphicon glyphicon-arrow-down"></i> </p>
               <p className="text-center">more see {'  '}
                 <a href="http://wicky.nillia.ms/headroom.js/playroom/">headroom.js/playroom</a>
               </p>
