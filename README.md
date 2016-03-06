@@ -2,15 +2,8 @@
 
 The excellent [headroom.js](https://github.com/WickyNilliams/headroom.js) as a React.js component.
 
-Demo & Examples
-
+# Demo
 Live demo: xiaokekeT.github.io/react-headroom
-
-To build the examples locally, run:
-
-npm install
-npm start
-Then open localhost:8000 in a browser.
 
 # Installation
 
