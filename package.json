@@ -1,5 +1,5 @@
 {
-  "name": "react-headroom",
+  "name": "react-headrooms",
   "version": "0.0.1",
   "description": "headroom.js for react",
   "main": "src/index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://xiaokekeT@github.com/xiaokekeT/react-headroom.git"
+    "url": "git+https://xiaokekeT@github.com/xiaokekeT/react-headrooms.git"
   },
   "keywords": [
     "react",
@@ -18,9 +18,9 @@
   "author": "xiaokekeT",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xiaokekeT/react-headroom/issues"
+    "url": "https://github.com/xiaokekeT/react-headrooms/issues"
   },
-  "homepage": "https://github.com/xiaokekeT/react-headroom#readme",
+  "homepage": "https://github.com/xiaokekeT/react-headrooms#readme",
   "dependencies": {
     "classnames": "^2.2.3",
     "react": "^0.14.7"

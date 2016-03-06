@@ -1,21 +1,19 @@
-# [react-headroom](https://github.com/xiaokekeT/react-headroom)
+# [react-headrooms](https://github.com/xiaokekeT/react-headrooms)
 
 The excellent [headroom.js](https://github.com/WickyNilliams/headroom.js) as a React.js component.
 
 # Demo
-Live demo: xiaokekeT.github.io/react-headroom
+Live demo: [xiaokekeT.github.io/react-headrooms](xiaokekeT.github.io/react-headrooms)
 
 # Installation
 
 The easiest way to use headroom is to install it from NPM and include it in your own React build process (using Browserify, Webpack, etc).
 
-You can also use the standalone build by including dist/react-headroom.js in your page. If you use this, make sure you have already included React, and it is available as a global variable.
-
 # Usage
 
 ```js
 import React from 'react'
-import Headroom from 'react-headroom'
+import Headroom from 'react-headrooms'
 
 class Root extends React.Component {
   render () {
