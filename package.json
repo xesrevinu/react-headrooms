@@ -2,7 +2,7 @@
   "name": "react-headrooms",
   "version": "0.0.2",
   "description": "headroom.js for react",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepublish": "rimraf lib && babel src --out-dir lib"
