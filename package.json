@@ -1,6 +1,6 @@
 {
   "name": "react-headrooms",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "headroom.js for react component",
   "main": "lib/index.js",
   "scripts": {
@@ -13,7 +13,7 @@
   },
   "keywords": [
     "react",
-    "react-component"
+    "react-component",
     "headroom"
   ],
   "author": "xiaokekeT",
