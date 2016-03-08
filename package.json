@@ -1,6 +1,6 @@
 {
   "name": "react-headrooms",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "headroom.js for react component",
   "main": "lib/index.js",
   "scripts": {
