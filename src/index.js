@@ -45,7 +45,7 @@ class Headroom extends Component {
     this.debouncer = new Debouncer(this.update)
     setTimeout(this.attachEvent, 100)
   }
-  componentWillUnMount () {
+  componentWillUnmount () {
     this.setState({
       initialised: false,
       classes: initialState
