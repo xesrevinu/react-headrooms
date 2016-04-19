@@ -311,7 +311,7 @@ class Headroom extends Component {
     })
   }
   render () {
-    if (this.props.disable()) return children
+    if (this.props.disable()) return this.props.children
     const cNames = this.props.classes
     const sNames = this.state.classes
     const t = {}
