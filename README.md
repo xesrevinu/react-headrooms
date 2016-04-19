@@ -31,5 +31,13 @@ class Root extends React.Component {
 }
 ```
 
+
+Disable headroom in you page
+```js
+<Headroom disable={() => this.props.pathname in ['/login', '/test']}>
+  ...
+</Headroom>
+```
+
 # License
 MIT

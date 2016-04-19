@@ -311,6 +311,7 @@ class Headroom extends Component {
     })
   }
   render () {
+    if (this.props.disable()) return children
     const cNames = this.props.classes
     const sNames = this.state.classes
     const t = {}
@@ -335,7 +336,8 @@ Headroom.propTypes = {
   onNotTop: Types.func,
   onTop: Types.func,
   onUnpin: Types.func,
-  onPin: Types.func
+  onPin: Types.func,
+  disable: Types.func
 }
 Headroom.defaultProps = {
   classes: {
@@ -349,7 +351,8 @@ Headroom.defaultProps = {
     up: 0,
     down: 0
   },
-  offset: 0
+  offset: 0,
+  disable: () => false
 }
 
 export default Headroom
