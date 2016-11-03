@@ -24,7 +24,7 @@ class Debouncer {
    */
   requestTick () {
     if (!this.ticking) {
-      requestAnimationFrame(this.rafCallback || (this.rafCallback = this.update.bind(this)))
+      window.requestAnimationFrame(this.rafCallback || (this.rafCallback = this.update.bind(this)))
       this.ticking = true
     }
   }
