@@ -1,4 +1,4 @@
-const requestAnimationFrame = typeof window === 'object' ? window.requestAnimationFrame = window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame : function () {}
+const requestAnimationFrame_ = typeof window === 'object' ? window.requestAnimationFrame = window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame : function () {}
 
 /**
  * Handles debouncing of events via requestAnimationFrame
@@ -24,7 +24,7 @@ class Debouncer {
    */
   requestTick () {
     if (!this.ticking) {
-      requestAnimationFrame(this.rafCallback || (this.rafCallback = this.update.bind(this)))
+      requestAnimationFrame_(this.rafCallback || (this.rafCallback = this.update.bind(this)))
       this.ticking = true
     }
   }
