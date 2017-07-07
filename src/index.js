@@ -1,4 +1,5 @@
-import React, { Component, PropTypes as Types } from 'react'
+import React, { Component } from 'react'
+import PropTypes as Types from 'prop-types'
 import Debouncer from './debouncer'
 import classnames from 'classnames'
 
