@@ -1,6 +1,6 @@
 {
   "name": "react-headrooms",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "headroom.js for react component",
   "main": "lib/index.js",
   "scripts": {
@@ -25,7 +25,7 @@
   "dependencies": {
     "classnames": "^2.2.5",
     "react": "^15.6.1",
-    "prop-types": "^15.5.10",
+    "prop-types": "^15.5.10"
   },
   "devDependencies": {
     "babel-cli": "^6.8.0",
